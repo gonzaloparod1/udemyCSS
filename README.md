@@ -56,6 +56,6 @@
 
 ## Autor
 
-Patricia
+Gonzalo
 
 ¡Esperamos que disfrutes del curso y te conviertas en un maestro del CSS!
