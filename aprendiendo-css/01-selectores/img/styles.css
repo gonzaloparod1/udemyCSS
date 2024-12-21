@@ -1,0 +1,139 @@
+/*
+
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: underline;
+}
+
+*/
+
+/* Selector universal */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* Selector de tipo */
+
+p {
+    color: goldenrod;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Selector de clase */
+
+.parrafo {
+    color: yellowgreen;
+    /* font-size: 30px; */
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    /* text-align: center; */
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+/* Selector de id */
+
+#descripcion{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#titulo {
+    
+    border: 2px dashed lightblue;
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Selector de etiqueta */
+
+footer a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Selector de atributo */
+
+#usuario form {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;    
+}
+
+#usuario form * {
+    display: flex;
+    
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/* Selector de agrupación */
+
+h2, h3 {
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Selector hijo */
+
+#menu > li > a {
+    font-size: 18px;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+/* Prioridad*/
+
+#saludo h1 {
+    background-color: green !important;
+}
+
+h1 {
+    background-color: lightcoral !important;
+}
